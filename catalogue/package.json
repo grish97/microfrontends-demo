@@ -1,0 +1,36 @@
+{
+    "name": "catalogue",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "start": "webpack-cli serve",
+        "build": "webpack --mode production",
+        "serve": "serve dist -p 3002",
+        "clean": "rm -rf dist"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "@material-ui/core": "^4.11.3",
+        "@material-ui/icons": "^4.11.2",
+        "react": "^18.2.0",
+        "react-dom": "^18.2.0",
+        "react-router-dom": "^6.3.0"
+    },
+    "devDependencies": {
+        "@babel/core": "^7.13.15",
+        "@babel/preset-react": "^7.13.13",
+        "@babel/preset-typescript": "^7.18.6",
+        "babel-loader": "^8.2.2",
+        "copy-webpack-plugin": "^11.0.0",
+        "html-webpack-plugin": "^5.3.1",
+        "serve": "^13.0.2",
+        "ts-loader": "^9.3.0",
+        "typescript": "^4.6.4",
+        "webpack": "^5.33.2",
+        "webpack-cli": "^4.6.0",
+        "webpack-dev-server": "^4.7.3"
+    }
+}
