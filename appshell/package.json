@@ -9,7 +9,7 @@
         "serve": "serve dist -p 3001",
         "clean": "rm -rf dist",
         "start:accountdetails": "cd ../accountdetails && npm start",
-        "start:catalogue": "cd ../catalogue && npm start",
+        "start:catalogue": "cd ../catalog && npm start",
         "start:myaccount": "cd ../myaccount && npm start",
         "start:paymentdetails": "cd ../paymentdetails && npm start",
         "start:signin": "cd ../signin && npm start",

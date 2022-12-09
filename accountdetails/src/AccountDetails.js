@@ -16,19 +16,19 @@ const AccountDetails = (props) => {
       <h3>Account Details</h3>
       <ul>
         <li>
-          <i>name:</i> Name
+          <span>name:</span> Name
         </li>
         <li>
-          <i>surname:</i> Surname
+          <span>surname:</span> Surname
         </li>
         <li>
-          <i>email:</i> example-mail@gmail.com
+          <span>email:</span> example-mail@gmail.com
         </li>
         <li>
-          <i>member since:</i> Jan 2022
+          <span>member since:</span> Jan 2022
         </li>
         <li>
-          <i>last payment changed: </i>
+          <span>last payment changed: </span>
           {lastPaymentDate}
         </li>
       </ul>

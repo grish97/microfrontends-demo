@@ -3,7 +3,7 @@ import {AppRouter} from "./router/AppRouter";
 
 const App = () => {
   return (
-    <div id="catalogue">
+    <div id="catalog">
       <h1>Shop</h1>
 
       <AppRouter/>

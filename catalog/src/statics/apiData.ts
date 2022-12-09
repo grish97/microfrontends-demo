@@ -1,6 +1,6 @@
-export function getCatalogueData() {
+export function getCatalogData() {
   return {
-    catalogue: [
+    catalog: [
       {
         id: 123,
         productName: "Black no.1 T-Shirt",

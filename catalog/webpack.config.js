@@ -42,10 +42,10 @@ module.exports = {
         ],
       }),
       new ModuleFederationPlugin({
-        name: "Catalogue",
+        name: "Catalog",
         filename: "remoteEntry.js",
         exposes:{
-          "./Catalogue": "./src/App"
+          "./Catalog": "./src/App"
         },
         shared: {
           "@material-ui/core": {

@@ -42,7 +42,7 @@ module.exports = {
       name: "AppShell",
       remotes: {
         MyAccount: "MyAccount@http://localhost:3004/remoteEntry.js",
-        Catalogue: "Catalogue@http://localhost:3002/remoteEntry.js",
+        Catalog: "Catalog@http://localhost:3002/remoteEntry.js",
         SignIn: "SignIn@http://localhost:3003/remoteEntry.js",
         // SignIn: "SignIn@http://signin.micro.net/signin/remoteEntry.js"
       },

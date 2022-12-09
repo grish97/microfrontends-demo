@@ -5,9 +5,9 @@ import {
   StylesProvider,
 } from "@material-ui/core/styles";
 import Product from "./Product";
-import { getCatalogueData } from "../statics/apiData";
+import { getCatalogData } from "../statics/apiData";
 
-export type TCatalogue = {
+export type TCatalog = {
   id: number;
   productName: string;
   image: string;
@@ -24,7 +24,7 @@ const Home = () => {
   return (
     <StylesProvider generateClassName={generateClassName}>
       <div>
-        {getCatalogueData().catalogue.map((item: TCatalogue) => (
+        {getCatalogData().catalog.map((item: TCatalog) => (
           <Product
             key={item.id}
             data={item}

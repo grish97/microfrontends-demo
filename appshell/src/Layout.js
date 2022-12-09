@@ -163,12 +163,12 @@ export const Layout = () => {
                 <ListItemText primary="Sign In" />
               </Link>
             </ListItem>
-            <ListItem button key="Catalogue">
+            <ListItem button key="Catalog">
               <ListItemIcon>
                 <ViewListIcon />
               </ListItemIcon>
               <Link to="/shop">
-                <ListItemText primary="Catalogue" />
+                <ListItemText primary="Catalog" />
               </Link>
             </ListItem>
             <ListItem button key="My Account">

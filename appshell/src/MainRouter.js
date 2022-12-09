@@ -4,7 +4,7 @@ import { CircularProgress, Grid } from "@material-ui/core";
 import { NotFound } from "./NotFound";
 
 const MyAccount = lazy(() => import("MyAccount/MyAccount"));
-const Catalogue = lazy(() => import("Catalogue/Catalogue"));
+const Catalog = lazy(() => import("Catalog/Catalog"));
 const SignIn = lazy(() => import("SignIn/SignIn"));
 
 export const MainRouter = () => {
@@ -32,7 +32,7 @@ export const MainRouter = () => {
     <Routes>
       <Route path="/" element={renderMicrofrontend(SignIn)}/>
       <Route path="/myaccount/*" element={renderMicrofrontend(MyAccount)}/>
-      <Route path="/shop/*" element={renderMicrofrontend(Catalogue)}/>
+      <Route path="/shop/*" element={renderMicrofrontend(Catalog)}/>
 
       <Route path="*" element={<NotFound />} />
     </Routes>
